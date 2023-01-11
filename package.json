@@ -10,12 +10,7 @@
     "prepare": "husky install",
     "commit":"cz"
   },
-  "husky":{
-    "hooks":{
-     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-     "prepare-commit-msg":"exec < /dev/tty && git cz --hook || true"
-    }
-  },
+ 
   "private": true,
   "dependencies": {
     "@angular/animations": "^15.0.0",
@@ -36,7 +31,6 @@
     "@angular/compiler-cli": "^15.0.0",
     "@types/jasmine": "~4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.3",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
